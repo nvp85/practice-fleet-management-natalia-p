@@ -22,6 +22,6 @@ console.log(car.getDetails());
 car.drive(1000);
 console.log(car.getDetails()); // mileage is update
 let truck = new Vehicle("truck", "tpyota", "tacoma", 2022, 10000);
-let motorcycle = new Vehicle("motorcycle", "toyota", "prius", 2020, 4500);
+let motorcycle = new Vehicle("motorcycle", "honda", "Grom", 2021, 4500);
 console.log(truck.getDetails());
 console.log(motorcycle.getDetails());
